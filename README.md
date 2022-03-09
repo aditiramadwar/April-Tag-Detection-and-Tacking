@@ -1,8 +1,9 @@
 # April-Tag-Detection-and-Tacking
 
 This project implements custom AR tag detection, tracking and superimposing an image and a 3D projection over the tag.
-A detailed report on the execution can be found here
-All the plots are saved in /results folder. While running the files, exit any of the plots by pressing the 'q' key
+A detailed report on the execution can be found [here](https://github.com/aditiramadwar/April-Tag-Detection-and-Tacking/blob/main/Report.pdf)
+
+
 Test video found [here](https://drive.google.com/file/d/1MWJOLJcFJvRporEfZ-j_lPbGkVuRv0So/view)
 
 ## Initial Data  
@@ -14,7 +15,7 @@ b) This will also give the tag IDs of the two AR tags in the data/ folder, ar_ta
 <img  alt="edges"  src="results/1a.edges.jpg"  width="80%" />
 
 ## Superimposed image
-This file will superimpose the Testudo image onto the AR tag in the video. 
+This file will superimpose the [Testudo](https://github.com/aditiramadwar/April-Tag-Detection-and-Tacking/blob/main/data/testudo.png) image onto the AR tag in the video. 
 
 	 python3 superimposition.py
 A video of this can be found [here](https://drive.google.com/file/d/1VplSTPKKCVewUl7ahmtW_9ra3Wc85yw8/view?usp=sharing)
@@ -26,4 +27,6 @@ This file will project a 3D cube onto the AR tag in the video
     python3 augmented_reality.py
 A video of this can be found [here](https://drive.google.com/file/d/1wJ_TR2KZmbtDgHyG_QL4jqPfEcMAVapM/view?usp=sharing)
 <img  alt="AR"  src="results/AR.gif"  width="80%" />
+
+
 
